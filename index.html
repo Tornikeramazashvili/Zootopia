@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/png" href="images/icon.png" sizes="16x16" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Zootopia</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-navigation-menu">
+        <div class="zootopia-icon-box">
+          <img
+            src="images/navigation/Zootopia-icon.png"
+            alt="Zootopia icon"
+            class="zootopia-icon"
+          />
+        </div>
+        <div class="toggle-menu-box">
+          <div class="toggle-menu-icon"></div>
+          <div class="toggle-menu-icon"></div>
+          <div class="toggle-menu-icon"></div>
+        </div>
+        <div class="navigation-menu-pages-box">
+          <ul>
+            <li class="search-page"><a href="#">ძებნა</a></li>
+            <li class="shopping-cart-page"><a href="#">კალათა</a></li>
+            <li class="login-page"><a href="#">შესვლა</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/slider/dog.jpg" alt="Dog" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slider/bird.jpg" alt="Bird" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slider/cat.jpg" alt="Cat" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slider/giraffe.jpg" alt="Giraffe" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/slider/monkeys.jpg" alt="Monkeys" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="services-box">
+        <div class="services-green-box">
+          <img
+            src="images/services/brightness-empty.svg"
+            alt="Brightness icon"
+            class="services-brightness-icon"
+          />
+          <p class="services-title">
+            პროდუქტების <br />
+            <span class="services-green-mark">ფართო</span> არჩევანი
+          </p>
+        </div>
+        <div class="services-pink-box">
+          <img
+            src="images/services/percentage.svg"
+            alt="Percentage icon"
+            class="services-percentage-icon"
+          />
+          <p class="services-title">
+            <span class="services-pink-mark">პრომოკოდის </span>მარტივი <br />
+            სისტემა
+          </p>
+        </div>
+        <div class="services-blue-box">
+          <img
+            src="images/services/credit-card.svg"
+            alt="Credit card icon"
+            class="services-credit-icon"
+          />
+          <p class="services-title">
+            მარტივი
+            <span class="services-blue-mark">ონლაინ <br /> </span>გადახდა
+          </p>
+        </div>
+        <div class="services-purple-box">
+          <img
+            src="images/services/truck.svg"
+            alt="Truck icon"
+            class="services-truck-icon"
+          />
+          <p class="services-title">
+            სწრაფი
+            <span class="services-purple-mark">მიტანის <br /> </span>სერვისი
+          </p>
+        </div>
+      </div>
+      <div class="product-category-container">
+        <div class="product-for-dogs">
+          <div class="product-for-dogs-title-box">
+            <p class="product-for-dogs-title">ძაღლთა სამყარო</p>
+            <p class="product-for-dogs-description">საუკეთესო არჩევანი</p>
+            <p class="product-for-dogs-additional-information">
+              ერთგული მეგობრისთვის
+            </p>
+            <button class="product-for-dogs-button">პროდუქციის ნახვა</button>
+          </div>
+          <div class="product-for-dog-box">
+            <img
+              src="images/navigation/products/dog.png"
+              width="200px"
+              alt="dog"
+            />
+          </div>
+        </div>
+        <div class="product-for-fish">
+          <div class="product-for-fish-title-box">
+            <p class="product-for-fish-title">შეუქმენი სასიამოვნო</p>
+            <p class="product-for-fish-description">გარემო შენს თევზებს</p>
+          </div>
+          <div class="product-for-fish-image-box">
+            <img
+              src="images/navigation/products/fish.png"
+              width="150px"
+              alt="fish"
+            />
+            <button class="product-for-fish-button">პროდუქციის ნახვა</button>
+          </div>
+        </div>
+        <div class="product-for-birds">
+          <div class="product-for-birds-title-box">
+            <p class="product-for-birds-title">ყველანაირი აქსესუარი</p>
+            <p class="product-for-birds-description">ფრინველებისთვის</p>
+          </div>
+          <div class="product-for-birds-image-box">
+            <button class="product-for-fish-button">პროდუქციის ნახვა</button>
+            <img
+              src="images/navigation/products/bird.png"
+              width="100px"
+              alt="bird"
+            />
+          </div>
+        </div>
+        <div class="product-for-cats">
+          <div class="product-for-cats-first-part">
+            <img
+              src="images/navigation/products/cat.png"
+              width="200px"
+              alt="cat"
+            />
+          </div>
+          <div product-of-cats->
+            <p class="product-of-cats-title">100 ნატურალური საკვები</p>
+            <p class="product-of-cats-description">თქვენი კატებისთვის</p>
+            <button class="product-of-cats-button">პროდუქციის ნახვა</button>
+          </div>
+          <div class="product-for-cats-third-part">
+            <div class="product-for-cats-third-part-image-box">
+              <img
+                src="images/navigation/products/cat2.png"
+                width="100px"
+                alt="cat"
+              />
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+      <div class="top-products-box">
+        <div class="top-products-title-box">
+          <span class="top-products-title">ტოპ პროდუქცია</span>
+          <span class="top-products-view-all">ყველას ნახვა</span>
+        </div>
+        <div class="top-products-slider">
+          <div class="each-product">
+            <div class="product-image-box">
+              <img
+                src="images/navigation/products/pedigree.png"
+                alt="Pedigree puppy dog food"
+                width="130px"
+                height="190px"
+              />
+              <img
+                src="images/services/percentage-white.svg"
+                alt="Percentage icon"
+                class="product-percentage-icon"
+              />
+            </div>
+            <div class="product-information">
+              <span class="product-name">პედიგრი</span>
+              <span class="product-description"
+                >საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span
+              >
+            </div>
+            <div class="product-quantity-box">
+              <span class="product-quantity-unselected">600გრ.</span>
+              <span class="product-quantity-selected">2 კგ.</span>
+              <span class="product-quantity-unselected">5 კგ.</span>
+              <span class="product-quantity-unselected">13 კგ.</span>
+            </div>
+            <div class="product-price-box">
+              <div>
+                <span class="product-current-price">135 ლ</span>
+                <s class="product-old-price">160 ლ</s>
+              </div>
+              <div>
+                <img
+                  src="images/services/shopping-cart-white.svg"
+                  alt="Shopping cart icon"
+                  class="product-shopping-cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="each-product">
+            <div class="product-image-box">
+              <img
+                src="images/navigation/products/royal-canin2.png"
+                alt="Pedigree puppy dog food"
+                width="130px"
+                height="190px"
+              />
+            </div>
+            <div class="product-information">
+              <span class="product-name">Royal Canin</span>
+              <span class="product-description"
+                >საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span
+              >
+            </div>
+            <div class="product-quantity-box">
+              <span class="product-quantity-unselected">400გრ.</span>
+              <span class="product-quantity-selected">8 კგ.</span>
+              <span class="product-quantity-unselected">1 შეკვრა</span>
+              <span class="product-quantity-unselected-different"></span>
+            </div>
+            <div class="product-price-box">
+              <div>
+                <span class="product-current-price-different">140.45 ლ</span>
+              </div>
+              <div>
+                <img
+                  src="images/services/shopping-cart-white.svg"
+                  alt="Shopping cart icon"
+                  class="product-shopping-cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="each-product">
+            <div class="product-image-box">
+              <img
+                src="images/navigation/products/royal-canin.jpeg"
+                alt="Pedigree puppy dog food"
+                width="130px"
+                height="190px"
+              />
+            </div>
+            <div class="product-information">
+              <span class="product-name">Royal Canin</span>
+              <span class="product-description"
+                >საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span
+              >
+            </div>
+            <div class="product-quantity-box">
+              <span class="product-quantity-unselected">400გრ.</span>
+              <span class="product-quantity-selected">8 კგ.</span>
+            </div>
+            <div class="product-price-box">
+              <div class="out-of-stock-box">
+                <span class="out-of-stock-title">არ არის მარაგში</span>
+              </div>
+            </div>
+          </div>
+          <div class="each-product">
+            <div class="product-image-box">
+              <img
+                src="images/navigation/products/royal-canin2.png"
+                alt="Pedigree puppy dog food"
+                width="130px"
+                height="190px"
+              />
+            </div>
+            <div class="product-information">
+              <span class="product-name">პედიგრი</span>
+              <span class="product-description"
+                >საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span
+              >
+            </div>
+            <div class="product-quantity-box">
+              <span class="product-quantity-unselected">400გრ.</span>
+              <span class="product-quantity-selected">8 კგ.</span>
+            </div>
+            <div class="product-price-box-different">
+              <div>
+                <span class="product-current-price-different">135 ლ</span>
+              </div>
+              <div>
+                <span class="product-current-added">დამატებულია</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="additional-information-box">
+          <div class="each-information-box">
+            <div class="inside-of-information-box">
+              <div class="information-box-rabbit">
+                <span class="use-zootopia-card">გამოიყენე ჩვენი,<br /></span>
+                <span class="zootopia-card-colorful">
+                  <span class="zootopia-card-z">ზ</span>
+                  <span class="zootopia-card-o">ო</span>
+                  <span class="zootopia-card-oo">ო</span>
+                  <span class="zootopia-card-t">ტ</span>
+                  <span class="zootopia-card-ooo">ო</span>
+                  <span class="zootopia-card-p">პ</span>
+                  <span class="zootopia-card-i">ი</span>
+                  <span class="zootopia-card-a">ა</span>
+                  <span class="zootopia-card-s">ს</span>
+                </span>
+                <span class="use-zootopia-card-text"> ბარათი</span>
+                <img
+                  src="images/zootopia-card.png"
+                  class="zootopia-card"
+                  width="320px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="each-information-box-rabbit">
+            <div class="rabbit-box">
+              <p class="rabbit-box-title">ყველაფერი</p>
+              <p class="rabbit-box-title-another">მღრღნელებისთვის</p>
+              <button class="rabbit-button">პროდუქციის ნახვა</button>
+            </div>
+            <img src="images/rabbit.png" class="rabbit" width="380px" />
+          </div>
+          <div class="each-information-box">
+            <div class="inside-of-information-box">
+              <div class="information-box-rabbit">
+                <span class="use-zootopia-card">გამოიყენე ჩვენი,<br /></span>
+                <span class="zootopia-card-colorful">
+                  <span class="zootopia-card-z">ზ</span>
+                  <span class="zootopia-card-o">ო</span>
+                  <span class="zootopia-card-oo">ო</span>
+                  <span class="zootopia-card-t">ტ</span>
+                  <span class="zootopia-card-ooo">ო</span>
+                  <span class="zootopia-card-p">პ</span>
+                  <span class="zootopia-card-i">ი</span>
+                  <span class="zootopia-card-a">ა</span>
+                  <span class="zootopia-card-s">ს</span>
+                </span>
+                <span class="use-zootopia-card-text"> ბარათი</span>
+                <img
+                  src="images/zootopia-card.png"
+                  class="zootopia-card"
+                  width="320px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="last-added-box">
+          <span class="top-products-title">ბოლოს დამატებული</span>
+          <span class="top-products-view-all">ყველას ნახვა</span>
+        </div>
+        <div class="top-products-slider">
+          <div class="each-product">
+            <div class="product-image-box">
+              <img
+                src="images/navigation/products/pedigree.png"
+                alt="Pedigree puppy dog food"
+                width="130px"
+                height="190px"
+              />
+              <img
+                src="images/services/percentage-white.svg"
+                alt="Percentage icon"
+                class="product-percentage-icon"
+              />
+            </div>
+            <div class="product-information">
+              <span class="product-name">პედიგრი</span>
+              <span class="product-description"
+                >საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span
+              >
+            </div>
+            <div class="product-quantity-box">
+              <span class="product-quantity-unselected">600გრ.</span>
+              <span class="product-quantity-selected">2 კგ.</span>
+              <span class="product-quantity-unselected">5 კგ.</span>
+              <span class="product-quantity-unselected">13 კგ.</span>
+            </div>
+            <div class="product-price-box">
+              <div>
+                <span class="product-current-price">135 ლ</span>
+                <s class="product-old-price">160 ლ</s>
+              </div>
+              <div>
+                <img
+                  src="images/services/shopping-cart-white.svg"
+                  alt="Shopping cart icon"
+                  class="product-shopping-cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="each-product">
+            <div class="product-image-box">
+              <img
+                src="images/navigation/products/royal-canin2.png"
+                alt="Pedigree puppy dog food"
+                width="130px"
+                height="190px"
+              />
+            </div>
+            <div class="product-information">
+              <span class="product-name">Royal Canin</span>
+              <span class="product-description"
+                >საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span
+              >
+            </div>
+            <div class="product-quantity-box">
+              <span class="product-quantity-unselected">400გრ.</span>
+              <span class="product-quantity-selected">8 კგ.</span>
+              <span class="product-quantity-unselected">1 შეკვრა</span>
+              <span class="product-quantity-unselected-different"></span>
+            </div>
+            <div class="product-price-box">
+              <div>
+                <span class="product-current-price-different">140.45 ლ</span>
+              </div>
+              <div>
+                <img
+                  src="images/services/shopping-cart-white.svg"
+                  alt="Shopping cart icon"
+                  class="product-shopping-cart-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="each-product">
+            <div class="product-image-box">
+              <img
+                src="images/navigation/products/royal-canin.jpeg"
+                alt="Pedigree puppy dog food"
+                width="130px"
+                height="190px"
+              />
+            </div>
+            <div class="product-information">
+              <span class="product-name">Royal Canin</span>
+              <span class="product-description"
+                >საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span
+              >
+            </div>
+            <div class="product-quantity-box">
+              <span class="product-quantity-unselected">400გრ.</span>
+              <span class="product-quantity-selected">8 კგ.</span>
+            </div>
+            <div class="product-price-box">
+              <div class="out-of-stock-box">
+                <span class="out-of-stock-title">არ არის მარაგში</span>
+              </div>
+            </div>
+          </div>
+          <div class="each-product">
+            <div class="product-image-box">
+              <img
+                src="images/navigation/products/royal-canin2.png"
+                alt="Pedigree puppy dog food"
+                width="130px"
+                height="190px"
+              />
+            </div>
+            <div class="product-information">
+              <span class="product-name">პედიგრი</span>
+              <span class="product-description"
+                >საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.</span
+              >
+            </div>
+            <div class="product-quantity-box">
+              <span class="product-quantity-unselected">400გრ.</span>
+              <span class="product-quantity-selected">8 კგ.</span>
+            </div>
+            <div class="product-price-box-different">
+              <div>
+                <span class="product-current-price-different">135 ლ</span>
+              </div>
+              <div>
+                <span class="product-current-added">დამატებულია</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="turtle-box">
+          <div class="turtle-title-box">
+            <span class="turtle-box-title"
+              >100% ნატურალური პროდუქცია <br />
+              შენი საუკეთესო მეგობრისათვის <br
+            /></span>
+            <button class="turtle-button">პროდუქციის ნახვა</button>
+          </div>
+          <img src="images/tortoise.png" width="590px" class="turtle-img" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="first-part">
+        <div class="first-column">
+          <img src="images/navigation/Zootopia-icon.png" width="140px" />
+          <p class="first-column-paragraph">
+            საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად
+            1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე
+            წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+          </p>
+        </div>
+        <div class="second-column">
+          <span class="second-column-title">კატეგორიები</span>
+          <li>ძაღლები</li>
+          <li>კატები</li>
+          <li>თევზები</li>
+          <li>ფრინველები</li>
+          <li>მღრღნელები</li>
+          <li>რეპტილიები</li>
+        </div>
+        <div class="third-column">
+          <span class="third-column-title">მენიუ</span>
+          <li>მთავარი</li>
+          <li>
+            <a href="about-us.html" target="_blank" class="about-us-link"
+              >ჩვენს შესახებ</a
+            >
+          </li>
+          <li>წესები და პირობები</li>
+          <li>ავტორიზაცია</li>
+          <li>რეგისტრაცია</li>
+          <li>
+            <a href="contact.html" target="_blank" class="contact-link"
+              >კონტაქტი</a
+            >
+          </li>
+        </div>
+        <div class="fourth-column">
+          <span class="fourth-column-title">კონტაქტი</span>
+          <li>თბილისი, დადიანის ქ. N:124</li>
+          <li>(+995) 555 333 222</li>
+          <li>example@gmail.com</li>
+        </div>
+      </div>
+      <div class="second-part">
+        <div>
+          <span class="all-rights-reserved">ყველა უფლება დაცულია.</span>
+        </div>
+        <div>
+          <span class="website-was-created"
+            >დამზადებულია <span class="smartweb">Smartweb</span>-ში</span
+          >
+        </div>
+        <div>
+          <img src="images/visa.svg" class="footer-icon" />
+          <img src="images/master-card.svg" class="footer-icon" />
+          <img src="images/Logo white.svg" class="footer-icon" />
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
